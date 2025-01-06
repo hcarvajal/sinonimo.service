@@ -1,0 +1,6 @@
+@sinonimo.service_HostAddress = http://localhost:5269
+
+GET {{sinonimo.service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
