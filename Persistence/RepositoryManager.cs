@@ -1,6 +1,7 @@
 ﻿using Domain.Repository_Interfaces;
 using Domain.Repository_Interfaces.Boleto;
 using Domain.Repository_Interfaces.Juego;
+using Domain.Repository_Interfaces.Resultado;
 using Domain.Repository_Interfaces.SubJuegos;
 using Models.RepositoryManager;
 using Persistence.Repositories;
@@ -90,5 +91,7 @@ namespace Persistence
                 return _boletoRepository;
             }
         }
+
+        public IResultadoRepository Resultados => throw new NotImplementedException();
     }
 }

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Repository_Interfaces.Juego
 {
+    /// <summary>
+    /// Esto es un contrato de los juegos.
+    /// </summary>
     public  interface IJuegoRepository
     {
         Task<bool> JuegosExistAsync(string name, CancellationToken cancellation = default );

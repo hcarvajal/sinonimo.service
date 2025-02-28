@@ -16,7 +16,7 @@ namespace Persistence
         public DbSet<Juegos> Juegos { get; set; }
         public DbSet<SubJuego> SubJuegos { get; set; }
         public DbSet<Boletos> Boletos { get; set; }
-        public DbSet<ResultadoGanador> resultadoGanadors { get; set; }
+        public DbSet<Premios> Premios { get; set; }
         public DbSet<Resultados> resultados { get; set; }
         public DbSet<Transactions> transactions { get; set; }
 

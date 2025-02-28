@@ -9,8 +9,7 @@
   <ItemGroup>
     <Folder Include="Repository Interfaces\Juego\" />
     <Folder Include="Repository Interfaces\Transaction\" />
-    <Folder Include="Repository Interfaces\ResultadoGanador\" />
-    <Folder Include="Repository Interfaces\Resultado\" />
+    <Folder Include="Repository Interfaces\Premios\" />
   </ItemGroup>
 
 </Project>

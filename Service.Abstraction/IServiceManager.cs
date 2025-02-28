@@ -11,5 +11,7 @@ namespace Service.Abstraction
         IUserService UserService { get; }
         IJuegoService JuegoService { get; }
         ISubJuegoService SubJuegoService { get; }
+        IBoletoService BoletoService { get; }
+        IResultadoService ResultadoService { get; }
     }
 }

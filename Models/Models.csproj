@@ -12,8 +12,7 @@
 
   <ItemGroup>
     <Folder Include="DTOTransaction\" />
-    <Folder Include="DTOResultadoGanador\" />
-    <Folder Include="DTOResultado\" />
+    <Folder Include="DTOPremios\" />
   </ItemGroup>
 
 </Project>

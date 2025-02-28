@@ -27,5 +27,7 @@ namespace Services
 
         public ISubJuegoService SubJuegoService => _lazySubJuegoService.Value;
         public  IBoletoService BoletoService => _lazyBoletoService.Value;
+
+        public IResultadoService ResultadoService => throw new NotImplementedException();
     }
 }

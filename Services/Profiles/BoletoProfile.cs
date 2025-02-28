@@ -12,7 +12,7 @@ namespace Services.Profiles
        {
             CreateMap<Boletos,BoletoDTO>();
             CreateMap<BoletoForCreateDTO, Boletos>();
-            CreateMap<JuegoForUpdateDTO,Boletos>();
+            CreateMap<BoletoForUpdateDTO,Boletos>();
             CreateMap<Boletos,BoletoForUpdateDTO>();
        }
     }

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    [Table("resultado_ganador")]
-    public class ResultadoGanador : BaseEntity
+    [Table("premios")]
+    public class Premios : BaseEntity
     {
-        public ResultadoGanador(int juegoId, DateTime juegoDate,
+        public Premios(int juegoId, DateTime juegoDate,
             string? numeroGanado, int boletoId, int vendorId)
         {
             JuegoId = juegoId;

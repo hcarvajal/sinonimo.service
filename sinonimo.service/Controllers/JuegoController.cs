@@ -31,6 +31,7 @@ namespace sinonimo.service.Controllers
         public async Task<ActionResult<JuegoDTO>> GetJuegos(CancellationToken cancellation)
         {
             var Juegos = await _serviceManager.JuegoService.GetJuegosAsync(cancellation);
+            
 
             if (Juegos == null)
             {
